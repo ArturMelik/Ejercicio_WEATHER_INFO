@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: antiquewhite;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  list-style: none;
+  width: 180px; /* opcional para uniformidad */
+}
+
+.card strong {
+    font-size: 1.1em;
+    color: #333;
+}

@@ -1,0 +1,31 @@
+App --> App.jsx
+    Header --> Header.jsx <header>
+        
+
+    Main   --> Main.jsx
+        WeatherList --> 
+            WeatherList.jsx --> 
+                <ul> --> Prevision de dias
+                    <li>dias</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            
+            WeatherCard --> 
+                WeatherCard.jsx -> 
+                    <ul> -->Prevision de horas
+                        <li>horas</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+    Footer --> Footer.jsx --> <footer></footer>
+                        
+            
+
+
+  npx crcf src/components/Main/Home About Contact ProductDetail Staff Topic WishList NotFound -j  --notest -f 
+    npx crcf src/components/Header/Nav -j  --notest -f 
+    npx crcf src/components/Main/Staff/Card -j  --notest -f
+    npx crcf src/components/Main/Topic/TopicCard -j  --notest -f
+
